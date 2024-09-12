@@ -1,4 +1,4 @@
-## Scheduling Software
+# Lifegaurd Scheduling Software
 # Overview
 
 This project is a custom scheduling software solution designed to streamline biweekly shift schedules for over 100 employees. The software, built using Python and Excel, handles complex scheduling requirements to ensure efficient and fair allocation of shifts while taking into account employee availability and qualifications.
