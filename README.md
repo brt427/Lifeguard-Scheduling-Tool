@@ -1,17 +1,69 @@
-# LG Scheduling Tool (Summer 2023)
+# Lifeguard Scheduling Tool (Summer 2023)
 
-# Overview 
+A custom, object-oriented scheduling solution I designed to automate complex scheduling problems for lifeguard management operations.
 
-This project is a custom scheduling software solution designed to streamline biweekly shift schedules for over 100 employees. The software, built using Python and Excel, handles complex scheduling requirements to ensure efficient and fair allocation of shifts while taking into account employee availability and qualifications.
+## Overview
 
-# Features
+This project streamlines the creation of biweekly shift schedules for over 100 employees. Built with Python and Excel integration, it handles complex scheduling requirements to ensure efficient and fair allocation of shifts while accounting for employee availability and qualifications.
 
-Custom Scheduling Solution: Automates and simplifies the process of generating biweekly schedules, reducing manual effort and errors.
-Object-Oriented Programming (OOP): Utilizes OOP principles for managing employee data, providing a scalable and easy-to-maintain codebase.
-Complex Scheduling Parameters: Incorporates diverse scheduling parameters to accommodate different employee availabilities, preferences, and required qualifications.
+## Features
 
-# Technologies Used
+- **Automated Schedule Generation** — Generates biweekly schedules automatically, reducing manual effort and minimizing errors
+- **Object-Oriented Design** — Utilizes OOP principles for managing employee data, providing a scalable and maintainable codebase
+- **Complex Parameter Handling** — Accommodates diverse scheduling parameters including:
+  - Employee availabilities
+  - Personal preferences
+  - Required qualifications and certifications
+- **Excel Integration** — Enables easy data visualization and manual adjustments when needed
 
-Python: The main programming language used for developing the scheduling logic and implementing data management through OOP.
-Excel: Employed for data storage, visualization, and facilitating easy interaction with the scheduling software, enabling administrators to make manual adjustments when needed.
+## Tech Stack
 
+- **Python** — Core scheduling logic and data management through OOP
+- **Excel** — Data storage, visualization, and administrator interface
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/brt427/Lifeguard-Scheduling-Tool.git
+   cd Lifeguard-Scheduling-Tool
+   ```
+
+2. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Configure your employee data in the Excel template (see Usage section)
+
+## Usage
+
+1. **Prepare Employee Data** — Enter employee information, availability, and qualifications into the Excel spreadsheet
+2. **Configure Parameters** — Set scheduling constraints and preferences
+3. **Run the Scheduler** — Execute the Python script to generate the biweekly schedule
+4. **Review & Adjust** — Use the Excel output to review and make any manual adjustments as needed
+
+## Project Structure
+
+```
+Lifeguard-Scheduling-Tool/
+├── README.md
+├── requirements.txt
+├── src/
+│   └── [Python scheduling modules]
+└── data/
+    └── [Excel templates and output files]
+```
+
+
+## License
+
+This project is available for personal and educational use.
+
+## Author
+
+Created by me (Blake Thomas) to solve real-world scheduling challenges in lifeguard management.
+
+---
+
+*This tool was developed to address the specific needs of managing a large lifeguard team, but the underlying architecture can be adapted for other scheduling scenarios.*
