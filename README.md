@@ -56,9 +56,6 @@ Lifeguard-Scheduling-Tool/
 ```
 
 
-## License
-
-This project is available for personal and educational use.
 
 ## Author
 
